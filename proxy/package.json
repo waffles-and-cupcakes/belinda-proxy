@@ -9,7 +9,9 @@
   },
   "scripts": {
     "start": "node server/server.js",
-    "dev:start": "nodemon server/server.js"
+    "dev:start": "nodemon server/server.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
